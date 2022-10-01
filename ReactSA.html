@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <title>개인정보입력 페이지</title>
+</head>
+<style>
+  .card-body {
+    background-color: #827d7d;
+    width: 390px;
+    height: 346px;
+    margin: auto;
+    color: #f2f200;
+    border: 3px solid gray;
+    font-size: 20px;
+    border-radius: 1px solid gray;
+
+  }
+</style>
+
+<body>
+  <div>
+  <form class="card-body" action="ReactSA.html" method="POST" onsumit="submit();">
+    First name :<br>
+    <input type="text" name="firstname" required ><br>
+    Last name :<br>
+    <input type="text" name="lastname" required ><br>
+    Email :<br>
+    <input type="email" name="email" required ><br>
+    Gender : 
+    <input type="radio" id="male" name="gender" value="male" required >
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required >
+    <label for="female">Female</label><br>
+    Favorite : 
+    <input type="checkbox" name="HTML" value="html_box" >HTML
+    <input type="checkbox" name="JAVA" value="java_box" >JAVA
+    <input type="checkbox" name="JavaScript" value="JavaScript_box" >JavaScript <br>
+    Browser : 
+    <select id="browers" name="browers" >
+      <option value="크롬" selected>크롬</option>
+      <option value="사파리" selected>사파리</option>
+      <option value="엣지" selected>엣지</option>
+      <option value="파이어폭스" selected>파이어폭스</option>
+    </select><br>
+    Birthday : 
+    <input type="date" name="bdaytime" required ><br>
+    <input type="submit" onclick="alert('제출 되셨습니다!')">
+  </form>
+</div>
+  
+</body>
+
+</html>
