@@ -1,0 +1,49 @@
+git 협력시 접속 방법
+
+1. 팀장이 깃 허브 생성
+
+2. 이메일로 깃허브 초대 받기
+
+3. 새 파일 생성
+
+4. Git bash 열기
+
+5. cd Desktop/ -입력
+
+6. ls -입력
+
+7. cd 새로 만든 파일명/ -입력
+
+8. git clone 클론코드 -입력 <- 깃허브 홈페이지 들어가서 초대된 public에 있는 Code 눌러서 
+                                     HTTPS에 있는 클론코드 복사
+
+9. git checkout dev -입력
+
+10. git branch 브런치파일명 -입력
+
+10-1. git checkout 브런치파일명 -입력
+
+11. git status -입력
+
+12. 파이참에서 새 프로젝트 생성 클릭
+
+13. 위치 에서 만든 파일에 들어가서 깃허브 폴더 선택
+
+14. 생성
+
+15. 작업하기
+
+16. 터미널 열기
+
+17. git status -입력
+
+18. git add . -입력
+
+19. git commit -m '표기할 이름' -입력
+
+20. git log -입력
+
+21. git remote update -입력
+
+22. git push -u origin 브런치이름 -입력
+
